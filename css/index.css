@@ -135,7 +135,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5e6164;
+  color: #5E6164;
 }
 h1,
 h2,
@@ -143,7 +143,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293b;
+  color: #23293B;
 }
 h1 {
   font-size: 4.3rem;
@@ -179,14 +179,14 @@ button {
   margin-bottom: 30px;
   border-radius: 5px;
   height: 6rem;
-  background: #23293b;
-  color: #ffffff;
+  background: #23293B;
+  color: white;
   border: 1px solid lightgray;
   font-size: 2rem;
 }
 button:hover {
   background-color: #ffffff;
-  color: #23293b;
+  color: #23293B;
 }
 @media (max-width: 500px) {
   button {
@@ -230,7 +230,7 @@ header nav {
 header nav a {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #5e6164;
+  color: #5E6164;
   margin: auto 0;
   padding: 0 1rem;
 }
@@ -291,11 +291,18 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
+  margin: 5px;
+  width: 95%;
   /************ Added options for mobile   ******/
 }
 @media (max-width: 500px) {
-  .home .intro-container .space-images {
+  .home .intro-container .space-images .blast {
+    width: 95%;
+  }
+  .home .intro-container .space-images .sky {
+    display: none;
+  }
+  .home .intro-container .space-images .launch {
     display: none;
   }
 }
@@ -314,8 +321,8 @@ footer {
 @media (max-width: 500px) {
   .home .plast {
     display: flex;
-    margin: 0 auto;
-    width: 95%;
+    margin: 5px auto;
+    width: 80%;
     border-radius: 10px;
   }
 }
